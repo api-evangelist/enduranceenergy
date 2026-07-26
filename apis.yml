@@ -1,8 +1,29 @@
 aid: enduranceenergy
-name: Enduranceenergy
-description: Enduranceenergy is a company surfaced as a portfolio company of felicis and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Endurance Energy
+description: >-
+  Endurance Energy is a renewable-energy developer building subsea geothermal
+  power systems that harness volcanic activity beneath the seafloor to generate
+  continuous, weather-independent electricity. Its first product, Adelie, is a
+  planned 100 kW subsea power system slated for deployment in September 2026 at
+  the Axial Seamount caldera off the Oregon coast, targeting island nations,
+  industrial facilities, and data centers that need firm baseload power. The
+  company is venture-backed (a Series A led by Founders Fund) and surfaced in the
+  API Evangelist network as a Felicis portfolio company. As of this profile it
+  publishes no public developer surface, API, SDK, or documentation; this entry
+  captures the company identity and probed domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/enduranceenergy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/lTlVf8wrKZFezGYTZIytm8uOuZI.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Renewable Energy
+- Geothermal
+- Clean Energy
+- Power Generation
+- Climate Tech
+- Subsea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://enduranceenergy.com
+  url: https://www.enduranceenergy.com
+- type: DomainSecurity
+  url: security/enduranceenergy-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/enduranceenergy/
+- type: Careers
+  url: https://jobs.ashbyhq.com/endurance-energy
+- type: Contact
+  url: https://www.enduranceenergy.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
